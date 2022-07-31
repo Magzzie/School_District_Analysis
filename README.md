@@ -149,20 +149,15 @@ We intend to address the concerns of the school board members regarding question
   |-|
 
 ## Conclusions
+- We removed the math and reading scores of 461 ninth grade students from the Thomas High School records.
+- We did extensive comparison between scores prior to removing the altered 9th graders' math and reading scores from the Thomas High School records, and after as detailed through the above images.<br>
+- Our findings were as follows: 
+	- The passing percentages on the district level have decreased less than 1%. 
+	- The passing percentages for each subject and over all for 10th-12th graders at THS ranged from 90.63% to 97.02%.
+	- The average scores and passing percentages for each subject and over all for THS have decreased less than 0.5%.
+	- Thomas High School was still the second top performing school in the district even after removing all 9th graders' scores. 
+	- The difference in average scores and passing percentages when calculated per school size, school type and school spending per students were very insignificant. 
+- Overall, Thomas High School maintained a high performance profile inspite of having less records in the dataset and did not affect the overall impression of district schools. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
