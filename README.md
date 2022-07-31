@@ -4,9 +4,9 @@ An analysis of Students' performance on standardized tests to reform school budg
 ## Project Background
 The school board has been concerned about academic dishonesty in the students_complete.csv file that contains students scores; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. <br>
 
-Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and haved requested to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact.<br>
+Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and haved requested to replace the math and reading scores for Thomas High School (THS) with NaNs while keeping the rest of the data intact.<br>
 
-Once the data in question is replaced, The Board would like a repeat of the school district analysis and obrain a comparison of the results before and after the change. 
+Once the data in question is replaced, The Board would like a repeat of the school district analysis and obtain a comparison of the results before and after the change. 
 
 ### Purpose
 We intend to address the concerns of the school board members regarding questionnable scores. Thus, we will eliminated these scores from the dataset and repeat our analysis of the district schools in order to provide an accurate representation of the academic levels in the district. 
@@ -66,7 +66,6 @@ We intend to address the concerns of the school board members regarding question
     | With Old THS 9th Scores | 81.87784018381414 | 78.98537145774827 |
     | With Null THS 9th Scores | 81.85579580976001 | 78.93053295099331 |
     
-- The total number of Thomas High School students in 10th-12th grades was 1,174, down from 1,653 after removing 9th graders.
 - The counts of students who passed reading and math had also changed after replacing THS 9th graders' scores with nulls. <br>
 
     |  | Passing Reading Count | Passing Math count  | 
@@ -87,26 +86,67 @@ We intend to address the concerns of the school board members regarding question
   |![New District Summary](./Images/New_District_Summary.png)|
 
 - Moreover, we recreated the school summary using the 10th-12th graders from thomas High School.
-  - Here you can see a comparison between the old school summary on top, and the new school summary at the bottom. <br>
+- The total number of Thomas High School students in 10th-12th grades was 1,174, down from 1,653 after removing 9th graders.
+- We created three new data frames for THS students who passed math, reading, and both. <br>
+
+  |![THS Students Passed Math DataFrame.](./Images/THS_passing_math_df.png)|
+  |-|
+  |![THS Students Passed Reading DataFrame.](./Images/THS_passing_reading_df.png)|
+  |![THS Students Passed Math & Reading DataFrame.](./Images/THS_passing_math_reading_df.png)|
+  
+- The number of THS students in 10th-12 grades who passed math: 1,094, reading: 1,139, and both: 1,064.
+- The percentage of 10th-12th grade students passing math from Thomas High School was 93.19 %.
+- The percentage of 10th-12th grade students passing reading from Thomas High School was 97.02 %.
+- The overall passing percentage of 10th-12th grade students from Thomas High School was 90.63 %.
+- Here you can see a comparison between the old school summary on top, and the new school summary at the bottom. <br>
   Please notice the difference in Thomas High School summary. <br>
-  |![School Summary Before Removing THS 9th Scores.](./Images/THS_with_9th.png)|  
-  |![Old Per School Summary.](./Images/old_per_school_summary.png)|
+   
+  |![Old Per School Summary.](./Images/Per_School_Summary_old.png)|
   |-|
   |![New School Summary](./Images/New_Per_School_Summary.png)|
   
-- The top 5 performing schools, based on the overall passing rate
-
-  |![Old Top 5 Performing Schools.](./Images/)|
+- Here you can see snippets of THS school summary before removing 9th graders bad scores on top, and after removing them and recalculating the school's summary from 10th-12th grades at the bottom. <br>
+  
+  |![Old THS Summary.](./Images/THS_old.png)|
   |-|
-  |![New Top 5 Performing Schools.](./Images/new_top_5.png)
+  |![New THS 10-12th Summary.](,./Images/THS_new_10_12.png)|
+  
+- The top 5 performing schools, based on the overall passing rate. Old ranking is on the top, and new ranking (after altering THS scores) at the bottom. <br>
 
-- The bottom 5 performing schools, based on the overall passing rate
+  |![Old Top 5 Performing Schools.](./Images/top_5_schools_old.png)|
+  |-|
+  |![New Top 5 Performing Schools.](./Images/top_5_schools_new.png)
 
-The average math score for each grade level from each school
+- The bottom 5 performing schools, based on the overall passing rate from the altered data. <br>
+  
+  |![Bottom 5 Performing Schools.](./Images/bottom_5_schools_new.png)|
+  |-|  
 
-The average reading score for each grade level from each school
+- The average math score for each grade level from each school: <br>
 
-The scores by school spending per student, by school size, and by school type
+  |![Average math score for 9th grade per school.](./Images/avg_math_9th_schools_new.png)|![Average math score for 10th grade per school.](./Images/avg_math_10th_schools_new.png)|
+  |-|-|
+  |![Average math score for 11th grade per school.](./Images/avg_math_11th_schools_new.png)|![Average math score for 12th grade per school.](./Images/avg_math_12th_schools_new.png)| 
+  
+- The average reading score for each grade level from each school: <br>
+  
+  |![Average Reading Score Per Grade Per School.](./Images/avg_reading_grade_school_df_formatted.png)|
+  |-|
+
+- The scores by school spending per student:<br>
+
+  |![Scores Per School Spending Per Student DataFrame](./Images/scores_per_spending_new_formatted.png)|
+  |-|
+  
+- The scores by school size: <br>
+
+  |![Scores Per School Size Per Student DataFrame](./Images/scores_per_size_new_formatted.png)|
+  |-|
+  
+- The scores by school type: <br>
+
+  |![Scores Per School Type Per Student DataFrame](./Images/scores_per_type_new_formatted.png)|
+  |-|
 
 ## Conclusions
 
