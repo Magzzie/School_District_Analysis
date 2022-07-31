@@ -82,7 +82,7 @@ We intend to address the concerns of the school board members regarding question
 
 - Here you can see a comparison between the old district summary in the top snippet, and the new district summary at the bottom: <br>
 
-  |![Old District Summary.](./Images/THS_with_9th.png)|
+  |![Old District Summary.](./Images/District_Summary_old.png)|
   |-|
   |![New District Summary](./Images/New_District_Summary.png)|
 
