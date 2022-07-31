@@ -109,7 +109,7 @@ We intend to address the concerns of the school board members regarding question
   
   |![Old THS Summary.](./Images/THS_old.png)|
   |-|
-  |![New THS 10-12th Summary.](,./Images/THS_new_10_12.png)|
+  |![New THS 10-12th Summary.](./Images/THS_new_10_12.png)|
   
 - The top 5 performing schools, based on the overall passing rate. Old ranking is on the top, and new ranking (after altering THS scores) at the bottom. <br>
 
